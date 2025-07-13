@@ -1,27 +1,20 @@
-node_modules
+# dependencies
+/node_modules
+
+# production
+/build
+
+# misc
 .DS_Store
-dist
-dist-ssr
-*.local
-
-# vscode
-.vscode
-node_modules
 .env
-coverage
-coverage.json
-typechain
+.env.local
+.env.*.local
 
-#Hardhat files
-cache
-artifacts
+# IDEs and editors
+.vscode/
+.idea/
 
-node_modules
-.env
-coverage
-coverage.json
-typechain
-
-#Hardhat files
-cache
-artifacts
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
